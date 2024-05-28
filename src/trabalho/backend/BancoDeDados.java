@@ -29,7 +29,7 @@ public class BancoDeDados implements PersistenceService{
 	
 	public static void inicializa() {
 		//Cria Usuarios no "Banco"
-		Usuario usuario1 = new Usuario(1, "Kaká","14602053670","321","xkakaxd@gmail.com","Rua Ja To Inno,80-Barreiro","8/10/1999",'1');
+		Usuario usuario1 = new Usuario(1, "Kaká","14602053670","420","xkakaxd@gmail.com","Rua Ja To Inno,80-Barreiro","8/10/1999",'1');
 		Usuario usuario2 = new Usuario(2, "Luis","11111111111","123","luis@email.com","Rua dos Pássaros,123-Bairro Alto da Serra","14/12/1979",'1');
 		Usuario usuario3 = new Usuario(3, "Giovanni","22222222222","123","giovanni@email.com","Avenida dos Astronautas, 456-Condomínio Estrela Cadente, Bloco C, Apto 302","28/07/1989",'2');
 		Usuario usuario4 = new Usuario(4, "Wanderleco","33333333333","123", "wandeco@email.com,","Avenida dos Girassóis, 456-Bairro Vista Bela","4/07/2000",'0');
