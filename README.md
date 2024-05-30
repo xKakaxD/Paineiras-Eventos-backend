@@ -22,7 +22,7 @@ Este repositório contém a camada de backend do projeto desenvolvido para a Fac
 1. Clone o repositório:
 
    ```
-   git clone https://github.com/seu-usuario/backend-repositorio.git
+   git clone https://github.com/seuUsuario/Paineiras-Eventos-backend.git
    cd backend-repositorio
    ```
 
