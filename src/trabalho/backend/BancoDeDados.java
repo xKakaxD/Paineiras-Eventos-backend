@@ -51,9 +51,25 @@ public class BancoDeDados implements PersistenceService{
 	public <T> T grava(String key, Object o) {
 		return (T) mapa.put(key, o);
 	}
-	
+	/* @Override
+	    public <T> T atualiza(String key, Object o) {
+	        if (database.containsKey(key)) {
+	            database.put(key, o);
+	            return (T) o;
+	        }
+	        return null; // ou lançar uma exceção se o registro não existir
+		}		*/   
+	@Override
+	    public <T> T atualiza(String key, Object o) {
+	        if (mapa.containsKey(key)) {
+	            mapa.put(key, o);
+	            return (T) o;
+	        }
+	        return null; // ou lançar uma exceção se o registro não existir
+	    }
 	public void apagar(String key, Object o) {
 		mapa.remove(key);
 	}
+	
 
 }
